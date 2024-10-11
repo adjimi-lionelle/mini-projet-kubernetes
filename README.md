@@ -1,4 +1,4 @@
-# mini-projet Kubernetes: Déploiement de WordPress à l'aide de Manifestes YAML.
+# Mini-projet Kubernetes: Déploiement de WordPress à l'aide de Manifests YAML.
 
 ## Objectif
 

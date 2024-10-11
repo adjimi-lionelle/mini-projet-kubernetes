@@ -6,7 +6,7 @@
 
 Déployer une infrastructure Kubernetes complète pour héberger et gérer une application WordPress et sa base de données MySQL, en assurant la persistance des données et l'accès via des services Kubernetes, en utilsant des manifests YAML.
 
-## Étapes à suivre
+## Étapes à suivre 
 
 1- Création des manifests pour le namespace et un secret Kubernetes.
 

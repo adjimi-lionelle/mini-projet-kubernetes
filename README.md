@@ -4,7 +4,7 @@
 
 ## Objectif
 
-Déployer une infrastructure Kubernetes complète pour héberger et gérer une application WordPress et sa base de données MySQL, en assurant la persistance des données et l'accès via des services Kubernetes, en utilsant des manifests YAML.
+Déployer une application WordPress et sa base de données MySQL dans un cluster Kubernetes, en assurant la persistance des données et l'accès via des services Kubernetes, tout en utilisant des manifests YAML.
 
 ## Étapes à suivre 
 

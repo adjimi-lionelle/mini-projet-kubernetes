@@ -23,7 +23,7 @@ kubectl apply -f app-namespace.yml
 Pour créer le secret Kubernetes, exécutez la commande suivante : 
 
 ```bash
-kubectl apply -f app-secret.yml -n wordpress
+kubectl apply -f app-secret.yml 
 ```
 ![alt text](images/image-1.png)
 
@@ -31,8 +31,8 @@ kubectl apply -f app-secret.yml -n wordpress
 
 Pour déployer MySQL et exposer son service, exécutez les commandes suivantes :
 ```bash
-kubectl apply -f mysql-deployment.yml -n wordpress
-kubectl apply -f mysql-service.yml -n wordpress
+kubectl apply -f mysql-deployment.yml 
+kubectl apply -f mysql-service.ymy
 ```
 ![alt text](images/image-3.png)
 
@@ -44,8 +44,8 @@ kubectl apply -f mysql-service.yml -n wordpress
 Pour les déployer, exécutez les commandes suivantes :
 
  ```bash
-kubectl apply -f pv-mysql.yml -n wordpress
-kubectl apply -f pvc-mysql.yml -n wordpress
+kubectl apply -f pv-mysql.yml 
+kubectl apply -f pvc-mysql.yml 
 ```
 ![alt text](images/image-2.png)
 
@@ -55,8 +55,8 @@ kubectl apply -f pvc-mysql.yml -n wordpress
 Pour déployer WordPress et son service, exécutez les commandes suivantes :
 
  ```bash
-kubectl apply -f wordpress-deployment.yml -n wordpress
-kubectl apply -f wordpress-service.yml -n wordpress
+kubectl apply -f wordpress-deployment.yml 
+kubectl apply -f wordpress-service.yml 
 ```
 ![alt text](images/image-4.png)
 
